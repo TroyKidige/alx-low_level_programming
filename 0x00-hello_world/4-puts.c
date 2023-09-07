@@ -1,5 +1,9 @@
 #include<stdio.h>
-int main(this is my work)
+/**
+ * main. A program that prints a line with puts function
+ * troy rocks
+ */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
