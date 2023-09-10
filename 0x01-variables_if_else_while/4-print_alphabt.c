@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	int cha;
+	char letter;
 
-	cha = 'a'
-	while (cha <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
+			putchar('\n');
+		return (0);
 }
-	if (cha != 'e' || cha != 'q')
-	}
-	putchar(cha);
-	}
-	chat++
