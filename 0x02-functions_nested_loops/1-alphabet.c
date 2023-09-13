@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_alphabet. - A program that prints lowercase alphabets
+ * print_alphabet. - A program that prints lowercase alphabets
  * Return: void
  */
 void print_alphabet(void)
