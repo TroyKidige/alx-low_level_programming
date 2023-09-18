@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * void swap_int - a program that swaps the values of two integers
- * @n: a parameter that checks values
+ * swap_int - a program that swaps the values of two integers
+ * @n: first
+ * @a: second
+ * @b: third
  * Return: 0 (success)
  */
 void swap_int(int *a, int *b)
