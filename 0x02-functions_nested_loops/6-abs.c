@@ -6,7 +6,7 @@
  */
 int _abs(int c)
 
-{	if (a < 0)
+{	if (c < 0)
 	{
 		int abs_val;
 
