@@ -4,12 +4,16 @@
  *@n: a function parameter that prints
  *Return: 0 (success)
  */
-int _abs(int)
-{
-	if (a < 0)
-		return (-a);
-	else (a >= 0)
-{
-		return (a);
-		}
+int _abs(int c)
+
+{	if (a < 0)
+	{
+		int abs_val;
+
+		abs_val = c * -1;
+		return (abs_val);
+	}
+
+	return (c);
+
 }
