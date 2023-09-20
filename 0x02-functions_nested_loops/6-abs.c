@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  *_abs - a program that prints integers
- *@n: a function parameter that prints
+ *@c: a function parameter that prints
  *Return: 0 (success)
  */
 int _abs(int c)
-
-{	if (c < 0)
+{
+	if (c < 0)
 	{
 		int abs_val;
 
