@@ -4,16 +4,16 @@
  *@n: the number to be treated
  *Return: 0 (success)
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int last;
 
-	last = % 10;
+	last = n % 10;
 	if (last < 0)
 	{
 
-	last = last * -l;
+	last = last * -1;
 }
 	_putchar(last * '0');
-	return (0);
+	return (last);
 }	
