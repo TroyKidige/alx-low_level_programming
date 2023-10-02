@@ -4,20 +4,20 @@
 
 /**
  * main - a program that multiplies two numbers.
- * @argc: parameter that counts 
+ * @argc: parameter that counts
  * @argv: parameter that checks arguement
  * Return: 0 (success)
  */
 
 int main(int argc, char *argv[])
 {
-	int o = 0, a = 0;
+	int n1 = 0, n2 = 0;
 
 	if (argc == 3)
 	{
-		o = atoi(argv[1]);
-		a = atoi(argv[2]);
-		printf("%d\n", o * a);
+		n1 = atoi(argv[1]);
+		n2 = atoi(argv[2]);
+		printf("%d\n", n1 * n2);
 	}
 	else
 	{
