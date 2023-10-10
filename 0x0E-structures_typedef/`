@@ -2,15 +2,13 @@
 #define DOG_H
 
 
-/**
- * struct dog - a dog's basic info
- * @name: First member - the name of the dog
- * @age: Second member - the age of the dog
- * @owner: Third member - the owner of the dog
- *
- * This structure is used to store information about a dog, including its name,
- * age, and owner.
- */
+	/**
+	  * struct dog - a new type struct dog with the following elements
+	  * @name: First member
+	  * @age: Second member
+	  * @owner: Third member
+	 * Description: Longer description
+	 */
 	struct dog
 	{
 		char *name;
@@ -31,4 +29,5 @@
 	void free_dog(dog_t *d);
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-	#endif
+
+#endif
