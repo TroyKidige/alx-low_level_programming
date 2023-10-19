@@ -8,7 +8,8 @@
 size_t print_list(const list_t *h)
 {
 	size_t united;
-
+	
+	united = 0;
 	while (h)
 	{
 		if (!h->str)
