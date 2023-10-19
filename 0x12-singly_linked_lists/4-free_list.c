@@ -5,14 +5,13 @@
  * @head: parameter for output
  * Return: 0 (success)
  */
-void free_lisst(list_t *head)
+void free_list(list_t *head)
 {
-	list_t *footer;
-	while (head)
+	list_t *united;
+	while ((united = head) != NULL)
 	{
-		footer = head->next;
-		free(head->str);
-		free(head);
-		head = footer;
+		head = head->next;
+		free(united->str);
+		free(united);
 	}
 }
