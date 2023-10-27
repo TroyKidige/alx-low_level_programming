@@ -4,7 +4,7 @@
  * @n:parameter for unsigned long int
  * @index: parameter for bit
  * Return: 0 (success)
-i */
+ */
 int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int y;
